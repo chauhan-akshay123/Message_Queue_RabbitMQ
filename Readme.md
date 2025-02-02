@@ -4,7 +4,8 @@ This project demonstrates how to implement a **message queue system** using **Ra
 We use **Docker** to run RabbitMQ without installing it on the local machine.
 
 ---
-
+### Check output outout images in Demonstration folder  
+---
 ## 🚀 Features
 - **Producer (`producer.js`)**: Sends email messages to a queue.
 - **Consumer (`consumer.js`)**: Listens and processes messages from the queue.
@@ -41,7 +42,7 @@ docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:management
 - To send a message to RabbitMQ:
   ```node producer.js```
 
-### Check output outout images in Demonstration folder  
+
 
 
 
