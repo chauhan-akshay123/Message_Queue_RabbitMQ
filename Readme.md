@@ -41,7 +41,7 @@ docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:management
 - To send a message to RabbitMQ:
   ```node producer.js```
 
-## 📸 Screenshots
+### 📸 Screenshots
 
 ![](Demonstration/Screenshot(444).png)  
 
